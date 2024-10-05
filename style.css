@@ -1,3 +1,20 @@
 h1{
     color: #e70c0c;
 }
+
+.home{
+    height: 830px;
+    background: #bf1515;
+}
+
+
+.about{
+    height: 830px;
+    background: #110808;
+}
+
+
+.services{
+    height: 830px;
+    background: #15bf18;
+}
