@@ -4,7 +4,7 @@ h1{
 
 .home{
     height: 830px;
-    background: #bf1515;
+    background: #f8ecec;
 }
 
 
@@ -17,4 +17,21 @@ h1{
 .services{
     height: 830px;
     background: #15bf18;
+}
+
+.img img{
+width: 700px;
+height: 650px;
+margin-left: -80px;
+border-radius: 90px;
+margin-top: 80px;
+}
+
+.hero{
+    margin-top: 200px;
+    color: #0166FF;
+}
+
+.get{
+background-color: #48249d;
 }
