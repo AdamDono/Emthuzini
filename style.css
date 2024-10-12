@@ -80,6 +80,14 @@ span{
     .home {
      margin-bottom: 450px;
     }
+
+    .about{
+        margin-top: -150px;
+    }
+    .gu{
+  width: 390px;
+  margin-left: -1px;
+    }
   }
 
   /* For larger screens */
