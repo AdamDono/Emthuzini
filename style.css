@@ -1,16 +1,27 @@
+.lumanosimo-regular {
+    font-family: "Lumanosimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 h1{
     color: #e70c0c;
 }
 
 .home{
     height: 830px;
-    background: #f8ecec;
+    background: #f8f8f8;
 }
 
 
 .about{
     height: 830px;
-    background: #110808;
+    background-image: url("https://img.freepik.com/free-photo/people-enjoying-each-others-company-dinner-party_23-2150763429.jpg?t=st=1728743675~exp=1728747275~hmac=8b36c7d6b3330d9e5364d671fa2ee47c812aade503e2e7c5a8b24558fbcd17e5&w=2000");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+color: #fbfbfb;
 }
 
 
@@ -30,8 +41,66 @@ margin-top: 80px;
 .hero{
     margin-top: 200px;
     color: #0166FF;
+    font-family: "Lumanosimo", cursive;
+font-weight: bolder;
+    font-size: 44px;
 }
 
 .get{
 background-color: #48249d;
 }
+
+.gu{
+    width: 1400px;
+    margin-left: 100px;
+    line-height: 40px;
+}
+
+.sub-text{
+
+ font-size: larger;
+}
+
+span{
+    color: #000;
+}
+
+@media (max-width: 767px) {
+    .img img {
+    margin-top: -10px;
+   object-fit: cover;
+    }
+
+    .hero {
+        margin-top: -0px;
+        padding-top: 10px;
+      
+    }
+
+    .home {
+     margin-bottom: 450px;
+    }
+
+    .about{
+        margin-top: -150px;
+    }
+    .gu{
+  width: 390px;
+  margin-left: -1px;
+    }
+  }
+
+  /* For larger screens */
+  @media (min-width: 768px) {
+    .hero {
+      font-size: 36px;
+    }
+
+    .sub-text {
+      font-size: 18px;
+    }
+
+    .get {
+      font-size: 18px;
+    }
+  }
