@@ -25,11 +25,14 @@ color: #fbfbfb;
 }
 
 
-.services{
+.mission{
     height: 830px;
     background: #f8f8f8;
 }
-
+.services{
+    height: 830px;
+    background: #d06f6f;
+}
 .img img{
 width: 700px;
 height: 650px;
