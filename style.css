@@ -27,7 +27,7 @@ color: #fbfbfb;
 
 .services{
     height: 830px;
-    background: #15bf18;
+    background: #f8f8f8;
 }
 
 .img img{
@@ -104,3 +104,7 @@ span{
       font-size: 18px;
     }
   }
+
+.m{
+    padding-top: 120px;
+}
