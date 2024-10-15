@@ -10,8 +10,8 @@
     background-image: url("https://images.pexels.com/photos/460295/pexels-photo-460295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
-color: #100f0f;
+background-repeat: no-repeat; 
+
 font-family: Arial, Helvetica, sans-serif;
 border-radius: 40px;
 }
@@ -23,7 +23,10 @@ border-radius: 40px;
 }
 .services{
     height: 830px;
-    background: #d06f6f;
+    background-image: url("./images/pexels-neosiam-594421.jpg");
+    background-size: cover; 
+    background-position: center; 
+background-repeat: no-repeat; 
 }
 .img img{
 width: 700px;
@@ -40,22 +43,15 @@ font-weight: bolder;
     font-size: 44px;
 }
 
+
+.card-body h2{
+    color: #145F63;
+}
 .herr{
     color: #145F63;
     font-weight: bolder;
         font-size: 44px;
 }
-
-.get{
-background-color: #4E4FEB;
-color:#e8e8ee;
-border-radius: 11px;
-box-shadow: none;
-border-color: none;
-padding-left: 20px;
-padding-right: 20px;
-}
-
 
 
 .gu{
@@ -151,7 +147,12 @@ span{
 }
 
 .carousel-slide img {
-    height: 1000px;
+    height: 850px;
+border-radius: 40px;
 
+}
 
+.carousel-slide{
+border-radius: 200px;
+    padding-left: 320px;
 }
