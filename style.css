@@ -1,13 +1,3 @@
-.lumanosimo-regular {
-    font-family: "Lumanosimo", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-
-h1{
-    color: #e70c0c;
-}
 
 .home{
     height: 830px;
@@ -17,19 +7,27 @@ h1{
 
 .about{
     height: 830px;
-    background-image: url("https://img.freepik.com/free-photo/people-enjoying-each-others-company-dinner-party_23-2150763429.jpg?t=st=1728743675~exp=1728747275~hmac=8b36c7d6b3330d9e5364d671fa2ee47c812aade503e2e7c5a8b24558fbcd17e5&w=2000");
+    background-image: url("https://images.pexels.com/photos/460295/pexels-photo-460295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
-color: #fbfbfb;
+background-repeat: no-repeat; 
+
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 40px;
 }
 
 
+.mission{
+    height: 830px;
+    background: #f8f8f8;
+}
 .services{
     height: 830px;
-    background: #15bf18;
+    background-image: url("./images/pexels-neosiam-594421.jpg");
+    background-size: cover; 
+    background-position: center; 
+background-repeat: no-repeat; 
 }
-
 .img img{
 width: 700px;
 height: 650px;
@@ -40,15 +38,21 @@ margin-top: 80px;
 
 .hero{
     margin-top: 200px;
-    color: #0166FF;
-    font-family: "Lumanosimo", cursive;
+    color: #145F63;
 font-weight: bolder;
     font-size: 44px;
 }
 
-.get{
-background-color: #48249d;
+
+.card-body h2{
+    color: #145F63;
 }
+.herr{
+    color: #145F63;
+    font-weight: bolder;
+        font-size: 44px;
+}
+
 
 .gu{
     width: 1400px;
@@ -57,8 +61,16 @@ background-color: #48249d;
 }
 
 .sub-text{
-
+font-family: Arial, Helvetica, sans-serif;
  font-size: larger;
+}
+
+.sub-text-about{
+margin-left: 300px;
+margin-right: 300px;
+text-align: center;
+font-weight: 800;
+line-height: 30px;
 }
 
 span{
@@ -74,6 +86,7 @@ span{
     .hero {
         margin-top: -0px;
         padding-top: 10px;
+        text-align: center;
       
     }
 
@@ -88,6 +101,12 @@ span{
   width: 390px;
   margin-left: -1px;
     }
+    .sub-text {
+        font-size: 18px;
+        text-align: center;
+      }
+
+ 
   }
 
   /* For larger screens */
@@ -98,9 +117,42 @@ span{
 
     .sub-text {
       font-size: 18px;
+   
     }
 
     .get {
       font-size: 18px;
     }
   }
+
+.m{
+    padding-top: 120px;
+    color: #145F63;
+    font-weight: bolder;
+}
+
+.l{
+    color: #145F63;
+}
+
+
+.colou{
+    background-color:#fefae0 ;
+  
+}
+
+.colour{
+    background-color:#edecda ;
+  
+}
+
+.carousel-slide img {
+    height: 850px;
+border-radius: 40px;
+
+}
+
+.carousel-slide{
+border-radius: 200px;
+    padding-left: 320px;
+}
