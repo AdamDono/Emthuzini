@@ -7,7 +7,7 @@
 
 .about{
     height: 830px;
-    background-image: url("https://images.pexels.com/photos/460295/pexels-photo-460295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("./images/pexels-cottonbro-4101143.jpg");
     background-size: cover; 
     background-position: center; 
 background-repeat: no-repeat; 
@@ -23,7 +23,7 @@ border-radius: 40px;
 }
 .services{
     height: 830px;
-    background-image: url("./images/pexels-neosiam-594421.jpg");
+    background-image: url("./images/pexels-cottonbro-4101143.jpg");
     background-size: cover; 
     background-position: center; 
 background-repeat: no-repeat; 
