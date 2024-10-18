@@ -100,7 +100,7 @@ span{
     }
 
     .about{
-        margin-top: -150px;
+        margin-top: -200px;
     }
     .gu{
   width: 390px;
@@ -110,9 +110,18 @@ span{
         font-size: 20px;
         text-align: center;
       }
+      .sub-text-about {
+        font-size: 20px;
+        text-align: center;
+        width: 390px;
+       margin-left: 20px;
 
+      }
       .btn{
         margin-left: 110px;
+      }
+      .p{
+        margin-left: 10px;
       }
 
  
@@ -124,8 +133,9 @@ span{
       font-size: 36px;
     }
 
-    .sub-text {
-      font-size: 18px;
+    .sub-text1{
+      font-size: 20px;
+      text-align: center;
    
     }
 
