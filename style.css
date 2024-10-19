@@ -82,10 +82,47 @@ span{
     color: #000;
 }
 
+
+@media (max-width: 600px) {
+  .m{
+margin-top: -150px;
+  }
+
+  .carousel-slide{
+    margin-bottom: 200px;
+margin-left: -315px;
+
+  }
+
+
+  .carousel-slide img {
+width: 422px;
+height: 5px;
+padding-top: 20px;
+  }
+
+  .mission {
+ margin-bottom: 350px;
+  }
+
+  .services{
+    margin-bottom: 1300px;
+  }
+
+  .container9{
+    margin-top: -60px;
+display: row;
+  }
+}
+
 @media (max-width: 767px) {
     .img img {
     margin-top: -10px;
    object-fit: cover;
+    }
+
+    .colou{
+    padding-top: -100px;
     }
 
     .hero {
@@ -95,6 +132,11 @@ span{
       
     }
 
+    .container{
+    flex-direction: row;
+    }
+    
+
     .home {
      margin-bottom: 450px;
     }
@@ -102,6 +144,7 @@ span{
     .about{
         margin-top: -200px;
     }
+
     .gu{
   width: 390px;
   margin-left: -1px;
@@ -132,7 +175,9 @@ span{
     .hero {
       font-size: 36px;
     }
-
+    .container{
+      flex-direction: row;
+      }
     .sub-text1{
       font-size: 20px;
       text-align: center;
@@ -380,3 +425,4 @@ border-radius: 200px;
 .uf-contact-form-01{
   margin-top: -200px;
 }
+
