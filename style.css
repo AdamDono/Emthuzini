@@ -89,7 +89,16 @@ margin-top: -150px;
   }
 
   .mission {
- margin-bottom: 370px;
+ margin-bottom: 350px;
+  }
+
+  .services{
+    margin-bottom: 1300px;
+  }
+
+  .container9{
+    margin-top: -60px;
+display: row;
   }
 }
 
@@ -402,9 +411,5 @@ border-radius: 200px;
 
 .uf-contact-form-01{
   margin-top: -200px;
-}
-
-.site-footer{
-  margin-top: -220px;
 }
 
