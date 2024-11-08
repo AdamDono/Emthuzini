@@ -123,6 +123,8 @@ display: none;
 
   .mission {
  margin-bottom: 350px;
+ margin-top: -200px;
+
   }
 
   .services{
@@ -133,6 +135,10 @@ display: none;
     margin-top: -60px;
 display: row;
   }
+  .scrollspy-example{
+    
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -140,7 +146,16 @@ display: row;
     margin-top: -10px;
    object-fit: cover;
     }
-
+    .carousel-slide{
+      margin-bottom: 200px;
+  margin-left: -315px;
+  
+    }
+    .carousel-slide img {
+  width: 422px;
+  height: 5px;
+  padding-top: 20px;
+    }
 
     .colou{
     padding-top: -100px;
@@ -539,13 +554,19 @@ header {
   .container1 {
     gap: 3rem;
   }
+
+  
 }
 
 @media (width < 900px) {
   .container1 {
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 250px;
+    margin-top: -200px;
   }
-
+  .site-footer{
+    margin-top: 150px;
+  }
   .container__right {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -554,6 +575,10 @@ header {
 @media (width < 750px) {
   .container__right {
     grid-template-columns: repeat(1, 1fr);
+
   }
 }
 
+.uf-contact-form-01{
+  margin-bottom: -190px;
+}
