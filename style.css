@@ -564,7 +564,9 @@ header {
     margin-bottom: 250px;
     margin-top: -200px;
   }
-
+  .site-footer{
+    margin-top: 150px;
+  }
   .container__right {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -573,11 +575,10 @@ header {
 @media (width < 750px) {
   .container__right {
     grid-template-columns: repeat(1, 1fr);
-    margin-bottom: 250px;
-    margin-top: -200px;
+
   }
 }
 
-.en{
+.uf-contact-form-01{
   margin-bottom: -190px;
 }
